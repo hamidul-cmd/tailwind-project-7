@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.close {
+  display: none;
+}
+
+.manu.active {
+  left: 0;
+}
+body.active {
+  overflow-y: hidden;
+}
+
+.boll {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #E5F5BD;
+  cursor: pointer;
+}
